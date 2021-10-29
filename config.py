@@ -6,7 +6,7 @@ class Config(object):
     SECRET_KEY = os.environ.get('SECRET_KEY') or 'secret-key'
 
     BLOB_ACCOUNT = os.environ.get('BLOB_ACCOUNT') or 'cmsarticlestorage'
-    BLOB_STORAGE_KEY = os.environ.get('BLOB_STORAGE_KEY') or 'K7KZZmgXQ/dOVqB+ECzE5y+32S5hNoHipwXG/OWBVmHUcbUvzlVInCyLlyuMYenhc203KTrqH7zrRDuLcP29zQ=='
+    BLOB_STORAGE_KEY = os.environ.get('BLOB_STORAGE_KEY') or 'Ama/EPl0XghZY6tgJK1K8/nGlcKdsWBoq8wKtmSYS8zYY3desWevX71DySjljDvC//cuis9kdcLHMKP9hunO3w=='
     BLOB_CONTAINER = os.environ.get('BLOB_CONTAINER') or 'imagescn'
 
     SQL_SERVER = os.environ.get('SQL_SERVER') or 'projectcms.database.windows.net'
